@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+.color-grey{
+    background-color: #9CC2E5;
+}
+.color-orange{
+    background-color: #FFD966;
+}
+.color-blue{
+    background-color: #0070C0;
+}
+.color-red{
+    background-color: #FF0000;
+    box-sizing: border-box;
+}
+.color-green-blur{
+    background-color: #A8D08D;
+    box-sizing: border-box;
+}
+.size-cell{
+    width: calc(100%/9);
+    height: 100%;
+    float: left;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+#contain{
+    width: 100%;
+}
+#contain .line{
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+}
+#contain > .line > .line2-cell1{
+    background-color: #92D050;
+    width: calc(100%*2/9);
+}
+#contain > .line > .line2-cell2{
+    background-color: #fff;
+    width: calc(100%*3/9);
+}
+#contain > .line > .line2-cell3{
+    background-color: #FFFF00;
+    width: calc(100%*4/9);
+}
+.line4-cell2,
+.line4-cell3,
+.line4-cell6,
+.line4-cell7,
+.line4-cell8{
+    border-bottom: none !important;
+}
+.line5-cell2,
+.line5-cell3,
+.line5-cell6,
+.line5-cell7,
+.line5-cell8{
+    border-top: none !important;
+}
+.edit-line{
+    height: 120px !important;
+    
+}
+#contain > .line > .line6-cell1{
+    width: calc(100%*4/9);
+    background-color: #fff
+}
+#contain > .line > .line6-cell2{
+    width: calc(100%*1/9);
+    height: 100%;
+}
+#contain > .line > .line6-cell3{
+    width: calc(100%*1/9);
+    height: 100%;
+}
+#contain > .line > .line6-cell4{
+    width: calc(100%*3/9);
+    height: 100%;
+}
+.line6-cell3 .cell-green-blur,
+.line6-cell2 .cell-red{
+    width: 100%;;
+    height: 40px;
+    border: 1px solid #000;
+}
